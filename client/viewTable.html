@@ -1,0 +1,12 @@
+<div ng-controller = 'myTableCtrl' ng-init='init()'>
+<table class="table table-bordered">
+  <tr>
+  <th>NAME</th>
+  <th>PHONE</th>
+  </tr>
+  <tr ng-repeat="item in table">
+    <td>{{ item.name }}</td>
+    <td>{{ item.phone }}</td>
+   </tr>
+</table>
+</div>
